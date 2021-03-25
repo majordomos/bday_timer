@@ -5,9 +5,9 @@ function tick() {
     const currDate = new Date();
     const diff = bDayDate - currDate;
     const seconds = Math.floor(diff / 1000);
-    const minutes = Math.floor(seconds / 60);
-    const hours = Math.floor(minutes / 60);
-    const days = Math.floor(hours / 24);
+    const minutes = Math.floor(seconds / 60) % 60;
+    const hours = Math.floor(seconds / 3600) % 24;
+    const days = Math.floor(seconds / 3600 / 24);
 
 
 
