@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    background-image: url('static/cake.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    color: white;
+    min-width: 33%;
+    margin-top: 5%;
+}
+
+.clock div {
+    font-size: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.countdown-element p {
+    text-align: center;
+}
